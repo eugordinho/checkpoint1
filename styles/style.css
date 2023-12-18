@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../img/redes-neuronales.png);
+    color: white;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: lightblue;
+}
+h1{
+    padding: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10px;
+}
+
+header h1{
+    text-align: center;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #d1d1d1;
+}
+main p{
+    text-align: center;
+}
+h2{
+    margin: 10px;
+    text-align: center;
+}
+
+article img{
+    width: 300px;
+    border-radius: inherit;
+}
+
+#mainSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainSection section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px 10px 10px;
+    border: solid 1px #3b3b3b;
+    padding: 0 10px 10px 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#mainSection a{
+    align-self: flex-end;
+    border: solid black 1px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin: 10px 5px 5px 5px;
+}
+
+main ul{
+    margin: 10px;
+}
+#list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#cuadroPrecios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    margin: 10px auto 25px auto;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+td, th{
+    padding: 5px;
+    border-width: 1px;
+    border-collapse:collapse;
+    border-style: solid;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4caf50;
+    padding: 20px;
+}
+
+fieldset{
+    border: none;
+}
+
+@media (min-width: 768px) {
+    #mainSection{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
